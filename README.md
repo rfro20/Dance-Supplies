@@ -34,6 +34,7 @@
 
 6. Once the file is updated to read your desired files, open the terminal window again.
     - Navigate to the designated folder that you created in the setup
+        - If you do not know how to get to the folder using terminal, right click on the folder in the Finder window and click "New Terminal at Folder".
     - Once you are in the designated folder, enter "python3 dancesupplies.py"
     - If all goes well, you should see a _.csv_ file pop up in the folder called "migration.csv" and "flagged_numbers.csv"
 
