@@ -15,7 +15,7 @@
     - In the downloaded zip folder you should see a file called `dancesupplies.py`. This is the program to combine the CSV files.
       
 4. Take the program and move it to the folder with both the data and the rewards spreadsheets. 
-    - In order for the program to work properly, both the data and rewards files need to be _.csv_ files. In order to do this, enter the spreadsheet you would like to make a CSV copy of:
+    - In order for the program to work properly, both the data and rewards files need to be _.csv_ files. In order to do this, open the spreadsheet you would like to make a CSV copy of:
         - Click "File"
         - Click "Save As"
         - Open the _File Format_ drop-down menu and choose "CSV UTF-8 (Comma-Delimited) (.csv)"
