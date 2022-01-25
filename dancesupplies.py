@@ -5,13 +5,13 @@ def main():
     # Read in the CSV File with the rewards numbers and points
     rewards = pd.read_csv("rewards.csv")
 
+    # Read in the CSV File with the customer information
+    data = pd.read_csv("testdata.csv")
+
     # Add all phone numbers to a dictionary for constant lookup time
     rewards_map = {}
     for i in range(len(rewards)):
         rewards_map[rewards.iloc()[i,0]] = [rewards.iloc()[i,1], 0]
-
-    # Read in the CSV File with the customer information
-    data = pd.read_csv("testdata.csv")
 
     output = pd.DataFrame(columns=["First Name", "Last Name", "E-Mail", "Registered Phone Number", "Points"])
     flagged_numbers = pd.DataFrame(columns=["Flagged Numbers"])
